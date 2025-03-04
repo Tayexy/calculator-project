@@ -1,0 +1,209 @@
+body { margin: 0; padding: 0;
+    box-sizing: border-box;}
+    a {
+        text-decoration: none;
+    }
+    
+    header{ color: #ffffff;
+    background-color: #000000;} 
+    
+    .navbar {display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0px;
+    max-width: 1200px;
+    margin: 0;} 
+    
+    
+    .logo {margin-left: 30px;}
+
+    .logo img {
+    width: 20vh;
+        height: auto; 
+    }
+
+    .nav-link { list-style: none;
+    display: flex;
+    font-size: 20px;
+    left: 900px;
+    position: absolute;}
+    
+    .nav-link li{ margin-left: 250px;
+    height: 10px;}
+    
+    .nav-link a{color: white;
+    text-decoration: none;}
+    
+
+    .search {background-color: #ffffff;
+        display: flex;
+        text-align: center;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+    top: 30px;
+    width: 400px;
+    height:35px;
+    justify-content: center;
+    right: 600px;
+    position: absolute;} 
+
+    .hero {
+        position: relative;
+        background-image: url("beathub.jpeg");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        text-align: center;
+        padding: 100px;
+    }
+    
+    .hero .overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: rgba(0, 0, 0, 0.5); /* Adjust this value to change opacity */
+        z-index: 1;
+    }
+    
+    .hero h1, .hero p {
+        position: relative;
+        z-index: 2;
+    }
+    
+    .hero h1 {
+        font-size: 50px;
+        color: #db0356;
+        text-decoration: none;
+    }
+    
+    .hero p {
+        color: #ffffff;
+    }
+    
+
+
+.hero2 {background-color: gray;
+    color: #ffffff;
+    padding: 20px;
+display: flex;
+align-items: center;
+justify-content: space-evenly;}
+
+    .hero2-container{
+    margin: 10px;}
+
+    .hero2-container li{ padding: 10px;}
+
+    .hero2-container img{ border-radius: 10px;}
+
+    .hero3 {background-color: gray;
+        color: #ffffff;
+        padding: 10px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-evenly;
+    border-top: solid 2px black;}
+
+    .hero3-container h2 {color: #db0356;
+    font-size: 40px;
+padding:0;}
+
+    .hero3-container p {color: #000000;
+    font-size: 30px;}
+
+    .hero3-container li{ list-style: none;
+    color:#ffffff;
+padding: 10px;}
+
+    .hero3-container1{background-color: #000000;
+    padding:20px;}
+
+    .hero3-container1 h2 {color: #ffffff;
+    font-size: 40px;}
+
+    .hero3-container1 p {color: #db0356;
+    font-size: 30px;}
+
+    .hero3-container1 li{ list-style: none;
+    color:#ffffff;
+padding:10px;}
+
+    
+    .ctn { background-color:#db0356;
+    color: #ffffff;
+border-radius: 10px;
+padding: 15px;}
+   
+.hero4 {background-color: gray;
+    color: #ffffff;
+    padding: 20px;
+display: flex;
+align-items: center;
+text-align: center;
+justify-content: space-evenly;
+padding:15px;
+border-top: solid 2px black;}
+
+.hero4-container h2 {color: #db0356;
+font-size: 40px;
+padding:0;}
+
+.hero4-container{background-color: #000000;
+    padding:20px;}
+
+    
+    .hero4-container1 li{
+        color:#ffffff;
+    padding:10px;
+text-align: left}
+    
+    .hero4-container li{
+        color:#ffffff;
+    padding:10px;
+text-align: left;}
+
+.hero5 {background-color: #000000;
+color:#ffffff;
+padding: 30px;}
+
+.hero5 h2 {font-size: 50px;}
+
+.hero5 p {font-size: 30px;}
+
+.src {background-color: #ffffff;
+    text-align: center;
+color: #ffffff;
+border: 1px solid #ffffff;
+border-radius: 10px;
+top: 10px;
+width: 800px;
+height:60px;
+justify-content: center;}
+
+.foot {background-color: #000000;
+color: #ffffff;
+background-color: gray;
+    color: #ffffff;
+    padding: 20px;
+display: flex;
+align-items: center;
+text-align: center;
+justify-content: space-evenly;}
+
+.foot-container a {
+color: #ffffff;
+font-size: 30px;}
+
+.foot-container1 { color: #ffffff;}
+
+.foot-container1 a{color:#ffffff;
+font-size: 30px;} 
+
+footer{ background-color: #000000;
+color: #ffffff;
+text-align: center;
+padding: 10px;}
