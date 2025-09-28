@@ -64,7 +64,7 @@ body { margin: 0; padding: 0;
         left: 0;
         right: 0;
         bottom: 0;
-        background: rgba(0, 0, 0, 0.5); /* Adjust this value to change opacity */
+        background: rgba(0, 0, 0, 0.8); /* Adjust this value to change opacity */
         z-index: 1;
     }
     
